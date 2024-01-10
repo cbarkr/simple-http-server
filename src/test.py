@@ -1,7 +1,5 @@
 from pathlib import Path
-from asyncio import get_event_loop, as_completed
-from unittest import TestCase, IsolatedAsyncioTestCase, main
-from concurrent.futures import ThreadPoolExecutor
+from unittest import TestCase, main
 from socket import socket, AF_INET, SOCK_STREAM, SHUT_RDWR
 
 from classes.request import Request

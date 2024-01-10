@@ -41,6 +41,7 @@ def readHandler(request: request.Request) -> response.Response:
         return response.Response()
     elif request.context == "delay":
         import time
+
         time.sleep(2)
         return response.Response(body="delay")
 
